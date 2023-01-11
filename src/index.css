@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+ outline: none;
+}
+
+.dark-mode-body{
+  background-color:  hsl(207, 26%, 17%) ;
+ color:White;
+ 
+}
+.light-mode-nav{
+  background-color: white;
+
+ color: hsl(200, 15%, 8%);
+}
+.dark-mode-nav{
+  background-color:hsl(209, 23%, 22%) ;
+}
+.dark-mode-filter select{
+  background-color: hsl(209, 23%, 22%);
+
+}
+
+.dark-mode-nav-search .icon-search{
+
+ color: white;
+}
+.dark-mode-nav-search{
+  background-color:  hsl(209, 23%, 22%);
+  border-radius: 8px;
+
+}
+.dark-mode-nav-search input{
+color: white;
+}
+.dark-mode-nav-search
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+
+}
+.dark-mode-text {
+  color: white;
+}
+
+
+
+.dark-mode-bg select{
+  background-color: hsl(209, 23%, 22%);
+  color:white;
+
+}
+
+
+/*button*/
+.dark-mode-bg{
+  color:white;
+  background-color:hsl(209, 23%, 22%);
+}
+
+.dark-mode-filter {
+  background-color: hsl(209, 23%, 22%);
+}
